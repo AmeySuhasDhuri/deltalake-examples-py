@@ -51,7 +51,7 @@ if __name__ == '__main__':
         delta_df \
             .history() \
             .orderBy("version") \
-            .show()
+            .show(, False)
 
     elif step == "version":
         spark \
